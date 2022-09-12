@@ -3,8 +3,9 @@
  */
 let startUp = document.getElementById('first-div')
 let cvArea = document.getElementById('second-div')
+let backImg = document.getElementById('back-img')
 
-function showStuff() {
-    startUp.classList.add('hidden')
-    cvArea.classList.remove('hidden')
-}
+document.getElementById("first-div").onclick = function () {
+    startUp.classList.add('hidden');
+    backImg.classList.toggle("fade");
+  };
