@@ -32,3 +32,19 @@ content: "";
         opacity: 0;
       }
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+img {
+    height: 35%;
+    border-radius: 50%;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1pxsolidvar(--bs-border-color);
+    max-width: 100%;
+}
